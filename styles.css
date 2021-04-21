@@ -1,0 +1,121 @@
+body{
+    background-color: lightcoral;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.section1{
+display: flex;
+}
+
+.w25 {
+    width: 25%;
+    height: 50vh;
+}
+
+.PRVNI{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.syn1 {
+    background: yellow;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.DRUHY{
+    background: brown;
+}
+
+.syn2{
+    color: yellow;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.syn3{
+    height: 80%;
+    background-image: url(auto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.TRETI{
+    background: grey;
+}
+
+.syn4{
+    background: white;
+    padding: 30px 30px;
+    font-size: 20px;    
+}
+
+.syn4:hover {
+    background: red;
+    color:white;
+    font-weight: bold;    
+}
+
+table tr th{
+    width: 100px;
+    height: 50px;
+    border: 5px solid red;
+
+}
+
+table {
+    border: 10px solid yellow;
+    margin: 10% auto;
+    color: yellow;
+    text-align: center;
+}
+
+.red{
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.CTVRTY{
+    background: yellow;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.syn5{
+    text-align: right;
+    padding-top: 80px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-end {
+justify-content: flex-end;
+}
+
+.table{
+    font-size: 30px;
+}
+
+ul {
+    background: red;
+}
+.section2{
+    height: 50vh;
+    background-image: url(hamburger.jpeg);
+    background-position: center;
+    cursor: help;
+    
+}
